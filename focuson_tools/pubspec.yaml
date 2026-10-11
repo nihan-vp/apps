@@ -1,0 +1,33 @@
+name: focuson_tools
+description: "FocusON Tools - Developer and productivity utility swiss-army knife for the FocusON ecosystem."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+  crypto: ^3.0.3
+  focuson_core:
+    path: ../../packages/focuson_core
+  focuson_models:
+    path: ../../packages/focuson_models
+  focuson_database:
+    path: ../../packages/focuson_database
+  focuson_design_system:
+    path: ../../packages/focuson_design_system
+  focuson_interop:
+    path: ../../packages/focuson_interop
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  sqflite_common_ffi: ^2.3.4+4
+  focuson_testing:
+    path: ../../packages/focuson_testing
+
+flutter:
+  uses-material-design: true

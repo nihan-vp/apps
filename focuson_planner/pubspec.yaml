@@ -1,0 +1,35 @@
+name: focuson_planner
+description: FocusON Planner — Offline Tasks, Academics, Calendar, Notes, Habits & Flashcards
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  focuson_core:
+    path: ../../packages/focuson_core
+  focuson_models:
+    path: ../../packages/focuson_models
+  focuson_database:
+    path: ../../packages/focuson_database
+  focuson_design_system:
+    path: ../../packages/focuson_design_system
+  focuson_notifications:
+    path: ../../packages/focuson_notifications
+  focuson_android_bridge:
+    path: ../../packages/focuson_android_bridge
+  focuson_interop:
+    path: ../../packages/focuson_interop
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  focuson_testing:
+    path: ../../packages/focuson_testing
+
+flutter:
+  uses-material-design: true

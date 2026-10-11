@@ -1,0 +1,35 @@
+name: focuson_ai
+description: "FocusON AI - Privacy-first intelligent productivity assistant with local-first inference & pluggable providers."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  intl: ^0.19.0
+  focuson_core:
+    path: ../../packages/focuson_core
+  focuson_models:
+    path: ../../packages/focuson_models
+  focuson_database:
+    path: ../../packages/focuson_database
+  focuson_design_system:
+    path: ../../packages/focuson_design_system
+  focuson_ai_core:
+    path: ../../packages/focuson_ai_core
+  focuson_interop:
+    path: ../../packages/focuson_interop
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  sqflite_common_ffi: ^2.3.4+4
+  focuson_testing:
+    path: ../../packages/focuson_testing
+
+flutter:
+  uses-material-design: true
